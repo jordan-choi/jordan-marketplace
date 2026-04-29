@@ -1,0 +1,3 @@
+[submodule "plugins/llm-wiki"]
+	path = plugins/llm-wiki
+	url = git@github.com:jordan-choi/llm-wiki.git

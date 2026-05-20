@@ -7,7 +7,11 @@
   "plugins": [
     {
       "name": "llm-wiki",
-      "source": "./plugins/llm-wiki",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:jordan-choi/llm-wiki.git",
+        "sha": "d7aad003e785faed1e25a337e8d86fa4b88e060a"
+      },
       "description": "Ingest sources (files, URLs, YouTube videos, pasted text) into a structured LLM wiki per your vault's schema. Provides ingest, query, and lint skills with auto-fix support."
     }
   ]
